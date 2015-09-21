@@ -1,0 +1,8 @@
+//Создание автолоудера
+php composer.phar install
+
+//Обновление автолодера и пакетов
+php composer.phar гзвфеу
+
+//Подключение автолоудера в bootstrap-файле
+$loader = require_once __DIR__.'/vendor/autoload.php';
